@@ -14,15 +14,7 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # 添加 ssr plus
-git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
-
-svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/pdnsd-alt package/pdnsd-alt && svn revert -R package/pdnsd-alt
-svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/shadowsocksr-libev package/shadowsocksr-libev && svn revert -R package/shadowsocksr-libev
-svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/microsocks package/microsocks && svn revert -R package/microsocks
-svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/dns2socks package/dns2socks && svn revert -R package/dns2socks
-
-# 添加 Turbo ACC 网络加速
-svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-sfe package/luci-app-sfe && svn revert -R package/luci-app-sfe
+git clone https://github.com/vi-si/openwrt-ssr-plus.git package/openwrt-ssr-plus
 
 
 # 添加UPX UCL工具包
