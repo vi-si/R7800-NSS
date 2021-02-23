@@ -16,6 +16,15 @@
 # 添加 ssr plus
 git clone https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/pdnsd-alt package/pdnsd-alt && svn revert -R package/pdnsd-alt
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/shadowsocksr-libev package/shadowsocksr-libev && svn revert -R package/shadowsocksr-libev
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/microsocks package/microsocks && svn revert -R package/microsocks
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/dns2socks package/dns2socks && svn revert -R package/dns2socks
+
+# 添加 Turbo ACC 网络加速
+svn co --force https://github.com/coolsnowwolf/lede/tree/master/package/lean/luci-app-sfe package/luci-app-sfe && svn revert -R package/luci-app-sfe
+
+
 # 添加UPX UCL工具包
 mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
 mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
