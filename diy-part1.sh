@@ -21,7 +21,7 @@ rm -rf bin
 
 
 # 添加 ssr plus
-git clone https://github.com/vi-si/openwrt-ssr-plus.git package/openwrt-ssr-plus
+# git clone https://github.com/vi-si/openwrt-ssr-plus.git package/openwrt-ssr-plus
 
 # 添加 ssr passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git  package/passwall
