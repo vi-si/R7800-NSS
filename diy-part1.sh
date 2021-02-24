@@ -23,6 +23,8 @@ rm -rf bin
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
+git clone https://github.com/vi-si/openwrt-smartdns.git package/openwrt-smartdns
+git clone https://github.com/vi-si/luci-app-smartdns.git package/luci-app-smartdns
 
 # 添加UPX UCL工具包
 # mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
