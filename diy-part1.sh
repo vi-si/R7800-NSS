@@ -21,7 +21,7 @@ rm -rf bin
 
 # 添加 ssr passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
-# git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/fw876/helloworld.git package/helloworld
 
 
 # 添加UPX UCL工具包
