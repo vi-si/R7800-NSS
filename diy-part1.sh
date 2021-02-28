@@ -28,7 +28,7 @@ git clone https://github.com/vi-si/openwrt-smartdns.git package/openwrt-smartdns
 git clone https://github.com/vi-si/luci-app-smartdns-1.git feeds/luci/applications/luci-app-smartdns
 # git clone https://github.com/vi-si/luci-app-smartdns-1.git package/feeds/luci/applications/luci-app-smartdns
 # 添加UPX UCL工具包
-# mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile 
+# mkdir -p tools/ucl && wget -P tools/ucl https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/ucl/Makefile
 # mkdir -p tools/upx && wget -P tools/upx https://raw.githubusercontent.com/coolsnowwolf/lede/master/tools/upx/Makefile
 
 # 修改makefile
